@@ -1,0 +1,78 @@
+01
+<?xml version="1.0" encoding="ISO-8859-1"?>
+02
+<!DOCTYPE web-app
+03
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+04
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+05
+<web-app>
+06
+  <display-name>Welcome to our server</display-name>
+07
+  <description>Welcome to our server</description>
+08
+  <servlet>
+09
+    <servlet-name>Servlet-A</servlet-name>
+10
+    <servlet-class>ServletA</servlet-class>
+11
+  </servlet>
+12
+  <servlet>
+13
+    <servlet-name>Servlet-B</servlet-name>
+14
+    <servlet-class>ServletB</servlet-class>
+15
+  </servlet>
+16
+  <servlet>
+17
+    <servlet-name>Servlet-C</servlet-name>
+18
+    <servlet-class>aa.bb.cc.ServletC</servlet-class>
+19
+  </servlet>
+20
+ 
+21
+  <servlet-mapping>
+22
+    <servlet-name>Servlet-A</servlet-name>
+23
+    <url-pattern>/ServletA</url-pattern>
+24
+  </servlet-mapping>
+25
+  <servlet-mapping>
+26
+    <servlet-name>Servlet-B</servlet-name>
+27
+    <url-pattern>/ServletB</url-pattern>
+28
+  </servlet-mapping>
+29
+  <servlet-mapping>
+30
+    <servlet-name>Servlet-C</servlet-name>
+31
+    <url-pattern>/ServletC</url-pattern>
+32
+  </servlet-mapping>
+33
+ 
+34
+  <welcome-file-list>
+35
+    <welcome-file>index.jsp</welcome-file>
+36
+    <welcome-file>index.html</welcome-file>
+37
+    <welcome-file>index.htm</welcome-file>
+38
+  </welcome-file-list>
+39
+</web-app>
